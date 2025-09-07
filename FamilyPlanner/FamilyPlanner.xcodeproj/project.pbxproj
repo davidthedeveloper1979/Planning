@@ -1,0 +1,148 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 60;
+  objects = {
+
+/* Begin PBXBuildFile section */
+    1A1A1A1A1A1A1A1A1A1A1A1A /* FamilyPlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B1B1B1B1B1B1B1B1B1B1B /* FamilyPlannerApp.swift */; };
+    1A1A1A1A1A1A1A1A1A1A1A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B1B1B1B1B1B1B1B1B1B1C /* AppDelegate.swift */; };
+    1A1A1A1A1A1A1A1A1A1A1A1C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B1B1B1B1B1B1B1B1B1B1D /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+    1B1B1B1B1B1B1B1B1B1B1B1B /* FamilyPlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyPlannerApp.swift; sourceTree = "<group>"; };
+    1B1B1B1B1B1B1B1B1B1B1B1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+    1B1B1B1B1B1B1B1B1B1B1B1D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth/LoginView.swift; sourceTree = "<group>"; };
+    1C1C1C1C1C1C1C1C1C1C1C1C /* FamilyPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = FamilyPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+    1D1D1D1D1D1D1D1D1D1D1D1D = {
+      isa = PBXGroup;
+      children = (
+        1E1E1E1E1E1E1E1E1E1E1E1E /* FamilyPlanner */,
+        1F1F1F1F1F1F1F1F1F1F1F1F /* Products */,
+      );
+      sourceTree = "<group>";
+    };
+    1E1E1E1E1E1E1E1E1E1E1E1E /* FamilyPlanner */ = {
+      isa = PBXGroup;
+      children = (
+        1B1B1B1B1B1B1B1B1B1B1B1B /* FamilyPlannerApp.swift */,
+        1B1B1B1B1B1B1B1B1B1B1B1C /* AppDelegate.swift */,
+        1B1B1B1B1B1B1B1B1B1B1B1D /* LoginView.swift */,
+      );
+      path = FamilyPlanner;
+      sourceTree = "<group>";
+    };
+    1F1F1F1F1F1F1F1F1F1F1F1F /* Products */ = {
+      isa = PBXGroup;
+      children = (
+        1C1C1C1C1C1C1C1C1C1C1C1C /* FamilyPlanner.app */,
+      );
+      name = Products;
+      sourceTree = "<group>";
+    };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+    200000000000000000000000 /* FamilyPlanner */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 210000000000000000000000 /* Build configuration list */;
+      buildPhases = (
+        220000000000000000000000 /* Sources */,
+      );
+      buildRules = ();
+      dependencies = ();
+      name = FamilyPlanner;
+      productName = FamilyPlanner;
+      productReference = 1C1C1C1C1C1C1C1C1C1C1C1C /* FamilyPlanner.app */;
+      productType = "com.apple.product-type.application";
+    };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+    230000000000000000000000 /* Project object */ = {
+      isa = PBXProject;
+      attributes = { LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; };
+      buildConfigurationList = 240000000000000000000000 /* Build configuration list */;
+      compatibilityVersion = "Xcode 15.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+      );
+      mainGroup = 1D1D1D1D1D1D1D1D1D1D1D1D;
+      productRefGroup = 1F1F1F1F1F1F1F1F1F1F1F1F /* Products */;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = (
+        200000000000000000000000 /* FamilyPlanner */,
+      );
+    };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+    220000000000000000000000 /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      files = (
+        1A1A1A1A1A1A1A1A1A1A1A1A /* FamilyPlannerApp.swift in Sources */,
+        1A1A1A1A1A1A1A1A1A1A1A1B /* AppDelegate.swift in Sources */,
+        1A1A1A1A1A1A1A1A1A1A1A1C /* LoginView.swift in Sources */,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+    250000000000000000000000 /* Dev */ = {
+      isa = XCBuildConfiguration;
+      baseConfigurationReference = AAAAAAAA0000000000000001 /* Dev.xcconfig */;
+      name = Dev;
+    };
+    250000000000000000000001 /* Staging */ = {
+      isa = XCBuildConfiguration;
+      baseConfigurationReference = AAAAAAAA0000000000000002 /* Staging.xcconfig */;
+      name = Staging;
+    };
+    250000000000000000000002 /* Prod */ = {
+      isa = XCBuildConfiguration;
+      baseConfigurationReference = AAAAAAAA0000000000000003 /* Prod.xcconfig */;
+      name = Prod;
+    };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+    210000000000000000000000 /* Build configuration list */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        250000000000000000000000 /* Dev */,
+        250000000000000000000001 /* Staging */,
+        250000000000000000000002 /* Prod */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Dev;
+    };
+    240000000000000000000000 /* Build configuration list */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        250000000000000000000000 /* Dev */,
+        250000000000000000000001 /* Staging */,
+        250000000000000000000002 /* Prod */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Dev;
+    };
+/* End XCConfigurationList section */
+
+/* Begin PBXFileReference section (xcconfig) */
+    AAAAAAAA0000000000000001 /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/Dev.xcconfig; sourceTree = SOURCE_ROOT; };
+    AAAAAAAA0000000000000002 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/Staging.xcconfig; sourceTree = SOURCE_ROOT; };
+    AAAAAAAA0000000000000003 /* Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/Prod.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section (xcconfig) */
+
+  };
+  rootObject = 230000000000000000000000 /* Project object */;
+}

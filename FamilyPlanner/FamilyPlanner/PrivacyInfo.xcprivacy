@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<privacy>
+    <usage>
+        <purpose>Location used to compute driving ETAs and show your position on the map.</purpose>
+        <data>Location</data>
+    </usage>
+    <usage>
+        <purpose>Identifiers used for authentication and analytics.</purpose>
+        <data>Identifiers</data>
+    </usage>
+    <usage>
+        <purpose>Crash data used to improve stability.</purpose>
+        <data>CrashData</data>
+    </usage>
+</privacy>
